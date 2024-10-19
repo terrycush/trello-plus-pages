@@ -39,12 +39,42 @@ p {
 li {
     margin-bottom: 10px;
 }
-.nav-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
 }
-/* custom */
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+td p {
+    margin: 0;
+}
+section {
+    margin-bottom: 60px;
+}
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav-links li {
+    margin: 0.5rem;
+}
+.nav-links a {
+    color: #333;
+    padding: 0.5rem 1rem;
+    display: block;
+}
 .custom-underline {
     text-decoration: underline;
     text-underline-offset: 6px;
