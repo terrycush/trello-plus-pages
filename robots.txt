@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://terrycush.github.io/trello-plus-pages/sitemap.xml
